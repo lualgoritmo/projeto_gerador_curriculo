@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.break
+{
+    width: 100%;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header
+{
+    display: flex;
+}
+.header_nav ul
+{
+    display: flex;
+    justify-items: flex-end;
+}
+li
+{
+    list-style: none;
+}
+
+/*SECTION IMAGNES*/
+
+.containerSection
+{
+    display: flex;
+    height: auto;
+    background-color: blue;
+}
+img
+{
+    border: 3px solid red;
+    width: 100%;
+}
+.containerSection
+{
+    border: 3px solid blue;
+}
