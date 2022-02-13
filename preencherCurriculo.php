@@ -71,22 +71,22 @@
                     <input type="text" class="bordeErro inputPessoal"
                      placeholder="Telefone" name="telefone" autocomplete="off"/>
                     
-                    <input type="text" class=" bordeErro inputPessoal"
+                    <input type="text" id="cep"class=" bordeErro inputPessoal"
                         name="cep" placeholder="Cep"autocomplete="off" />
 
-                    <input type="text" name="rua" class=" bordeErro inputPessoal"
+                    <input type="text" id="logradouro" name="rua" class=" bordeErro inputPessoal"
                      placeholder="Rua" autocomplete="off"/>
 
                     <input type="text" class="bordeErro inputPessoal"
                      placeholder="Número de Residência" name="numero_residencia"/>
 
-                    <input type="text" class="bordeErro inputPessoal"
+                    <input type="text" id="bairro" class="bordeErro inputPessoal"
                      placeholder="Bairro" name="bairro" autocomplete="off" />
 
-                    <input type="text" name="cidade" class="bordeErro inputPessoal"
+                    <input type="text" id="localidade" name="cidade" class="bordeErro inputPessoal"
                      placeholder="Cidade" autocomplete="off" />
 
-                    <input type="text" class="bordeErro inputPessoal" 
+                    <input type="text"id="uf" class="bordeErro inputPessoal" 
                      placeholder="UF" name="uf" autocomplete="off" />
 
                     <div class="break"></div>
@@ -259,7 +259,7 @@
         </form>
     </section>
     <?php require_once "footer.php";?>
-   
+   <script src="js/formulario.js"></script>
 </body>
 
 </html>
