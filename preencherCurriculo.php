@@ -77,9 +77,6 @@
                     <input type="text" id="logradouro" name="rua" class=" bordeErro inputPessoal"
                      placeholder="Rua" autocomplete="off"/>
 
-                    <input type="text" class="bordeErro inputPessoal"
-                     placeholder="Número de Residência" name="numero_residencia"/>
-
                     <input type="text" id="bairro" class="bordeErro inputPessoal"
                      placeholder="Bairro" name="bairro" autocomplete="off" />
 
@@ -88,7 +85,10 @@
 
                     <input type="text"id="uf" class="bordeErro inputPessoal" 
                      placeholder="UF" name="uf" autocomplete="off" />
-
+                    
+                     <input type="text" class="bordeErro inputPessoal"
+                     placeholder="Número de Residência" name="numero_residencia"/>
+                     
                     <div class="break"></div>
                     <label for="estado_civil"> Estado Civil</label>
                     <div class="break"></div>
